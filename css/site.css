@@ -223,6 +223,42 @@ img { max-width: 100%; display: block; }
 .chapter p:not(.when) { max-width: 58ch; margin: 16px auto 0; font-size: 18px; line-height: 1.6; }
 .chapter .tags { margin-top: 18px; }
 
+/* ---- program layout: sharp lead, quick facts, then photos and links ------ */
+.chapter p.lead {
+  font-family: var(--font-statement);
+  font-weight: 300;
+  font-size: clamp(20px, 2.2vw, 25px);
+  line-height: 1.4;
+  max-width: 38ch;
+  margin: 18px auto 0;
+}
+.chapter p.lead strong { font-weight: var(--emph-weight); font-style: var(--emph-style); color: var(--accent); }
+.facts { max-width: 58ch; margin: 26px auto 0; }
+.facts div { margin-top: 12px; }
+.facts dt {
+  font-family: var(--font-label);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+}
+.facts dd { margin: 2px 0 0; font-size: 16.5px; line-height: 1.5; }
+.chapter .figure { margin-top: 32px; margin-bottom: 0; }
+.chapter .figure + .figure { margin-top: 20px; }
+.chapter .links { margin-top: 24px; }
+.chapter p.small-label {
+  font-family: var(--font-label);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 26px auto 0;
+}
+.plain { list-style: none; padding: 0; margin: 14px auto 0; max-width: 58ch; }
+.plain li { margin-top: 14px; font-size: 18px; line-height: 1.4; }
+.plain .orig { display: block; font-size: 15px; font-style: italic; margin-top: 2px; }
+
 /* ---- buttons ------------------------------------------------------------ */
 .btn {
   display: inline-block;
