@@ -53,7 +53,7 @@ AGENTS.md        ← design philosophy and setup guide for AI assistants
 - A short rule under headings only; items are separated by space.
 - Boxes mean "clickable". Tags and labels are plain text.
 - Three heading weights, so the name leads and entries stay quiet.
-- Photos and figures print in black and white, so any image suits any accent.
+- Photos and figures show in their original color.
 - Real links and buttons, visible focus rings, readable on a phone.
 
 ## License
